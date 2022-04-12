@@ -6,11 +6,11 @@ import { FuncionarioRoutingModule } from './funcionario-routing.module';
 import { FuncionarioComponent } from './funcionario.component';
 
 @NgModule({
-  declarations: [FuncionarioComponent, FilterDepartamentoPipe],
-  imports: [
-    ComumModule,
-    NgSelectModule,
-    FuncionarioRoutingModule
-  ]
+    declarations: [FuncionarioComponent, FilterDepartamentoPipe],
+    imports: [
+        ComumModule,
+        NgSelectModule,
+        FuncionarioRoutingModule
+    ]
 })
 export class FuncionarioModule { }

@@ -6,11 +6,11 @@ import { ComumModule } from 'src/app/modules/comum.module';
 import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
-  declarations: [DepartamentoComponent],
-  imports: [
-    ComumModule,
-    ReactiveFormsModule,
-    DepartamentoRoutingModule
-  ]
+    declarations: [DepartamentoComponent],
+    imports: [
+        ComumModule,
+        ReactiveFormsModule,
+        DepartamentoRoutingModule
+    ]
 })
 export class DepartamentoModule { }

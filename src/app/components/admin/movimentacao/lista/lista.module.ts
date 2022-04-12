@@ -4,11 +4,11 @@ import { ComumModule } from 'src/app/modules/comum.module';
 import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
-  declarations: [],
-  imports: [
-    ComumModule,
-    NgSelectModule,
-    ListaRoutingModule
-  ]
+    declarations: [],
+    imports: [
+        ComumModule,
+        NgSelectModule,
+        ListaRoutingModule
+    ]
 })
 export class ListaModule { }

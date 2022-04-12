@@ -5,19 +5,19 @@ import { Model } from '../core/model';
 
 
 export class Requisicao extends Model {
-  solicitante: Funcionario;
-  dataAbertura: any;
-  ultimaAtualizacao: any;
-  descricao: string;
-  status: string;
-  destino: Departamento;
-  movimentacoes: Movimentacao[];
+    solicitante: Funcionario;
+    dataAbertura: any;
+    ultimaAtualizacao: any;
+    descricao: string;
+    status: string;
+    destino: Departamento;
+    movimentacoes: Movimentacao[];
 }
 
 
 export class Movimentacao extends Model {
-  funcionario: Funcionario;
-  dataHora: any;
-  status: string
-  descricao: string;
+    funcionario: Funcionario;
+    dataHora: any;
+    status: string
+    descricao: string;
 }

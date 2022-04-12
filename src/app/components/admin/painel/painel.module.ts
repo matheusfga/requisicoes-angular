@@ -5,10 +5,10 @@ import { PainelRoutingModule } from './painel-routing.module';
 import { PainelComponent } from './painel.component';
 
 @NgModule({
-  declarations: [PainelComponent],
-  imports: [
-    CommonModule,
-    PainelRoutingModule
-  ]
+    declarations: [PainelComponent],
+    imports: [
+        CommonModule,
+        PainelRoutingModule
+    ]
 })
 export class PainelModule { }

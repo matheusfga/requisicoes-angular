@@ -5,22 +5,22 @@ import { Router } from '@angular/router';
 import firebase from 'firebase/app';
 
 @Component({
-  selector: 'app-menu',
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+    selector: 'app-menu',
+    templateUrl: './menu.component.html',
+    styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
 
-  user: Observable<firebase.User>;
-  constructor(private authServ: AuthenticationService, private router: Router) { }
+    user: Observable<firebase.User>;
+    constructor(private authServ: AuthenticationService, private router: Router) { }
 
-  ngOnInit() {
-    this.user = this.authServ.authUser();
-  }
+    ngOnInit() {
+        this.user = this.authServ.authUser();
+    }
 
-  sair() {
-    this.authServ.logout().then(() => this.router.navigate(['/']));
-  }
+    sair() {
+        this.authServ.logout().then(() => this.router.navigate(['/']));
+    }
 
 
 }

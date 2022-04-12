@@ -7,11 +7,11 @@ import { RequisicaoComponent } from './requisicao.component';
 import { NgSelectModule } from '@ng-select/ng-select';
 
 @NgModule({
-  declarations: [RequisicaoComponent, MovimentacaoComponent,  ListaComponent],
-  imports: [
-    ComumModule,
-     RequisicaoRoutingModule,
-     NgSelectModule
-  ]
+    declarations: [RequisicaoComponent, MovimentacaoComponent, ListaComponent],
+    imports: [
+        ComumModule,
+        RequisicaoRoutingModule,
+        NgSelectModule
+    ]
 })
 export class RequisicaoModule { }
